@@ -1,0 +1,6 @@
+add: 100 + 10 = 110 - PASS
+subtract: 100 − 10 = 90 - PASS
+multiply: 100 × 10 = 1000 - PASS
+divide: 100 ÷ 10 = 10 - PASS
+100 ÷ 0 = 0 - PASS
+empty input: 숫자 두 개를 모두 입력하세요. - PASS

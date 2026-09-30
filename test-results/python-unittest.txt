@@ -1,0 +1,15 @@
+python -m unittest -v
+
+test_add_01 (test_FourBasicOpt.FourBasicOptTest.test_add_01) ... ok
+test_add_02 (test_FourBasicOpt.FourBasicOptTest.test_add_02) ... ok
+test_divide_01 (test_FourBasicOpt.FourBasicOptTest.test_divide_01) ... ok
+test_divide_02 (test_FourBasicOpt.FourBasicOptTest.test_divide_02) ... ok
+test_multiply_01 (test_FourBasicOpt.FourBasicOptTest.test_multiply_01) ... ok
+test_multiply_02 (test_FourBasicOpt.FourBasicOptTest.test_multiply_02) ... ok
+test_subtract_01 (test_FourBasicOpt.FourBasicOptTest.test_subtract_01) ... ok
+test_subtract_02 (test_FourBasicOpt.FourBasicOptTest.test_subtract_02) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK

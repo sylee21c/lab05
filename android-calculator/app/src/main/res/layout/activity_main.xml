@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="true" android:background="#F4F6FA">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="LAB 05 · TDD" android:textSize="14sp" android:textColor="#4965A0" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="사칙연산 계산기" android:textSize="28sp" android:textStyle="bold"
+            android:textColor="#18233B" android:layout_marginTop="8dp" android:layout_marginBottom="24dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="첫 번째 숫자" />
+        <EditText android:id="@+id/inputFirst" android:layout_width="match_parent" android:layout_height="56dp"
+            android:inputType="numberDecimal|numberSigned" android:hint="예: 100" android:singleLine="true" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="연산 선택" android:layout_marginTop="16dp" />
+        <Spinner android:id="@+id/spinnerOperator" android:layout_width="match_parent" android:layout_height="56dp" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="두 번째 숫자" android:layout_marginTop="16dp" />
+        <EditText android:id="@+id/inputSecond" android:layout_width="match_parent" android:layout_height="56dp"
+            android:inputType="numberDecimal|numberSigned" android:hint="예: 10" android:singleLine="true" />
+        <Button android:id="@+id/buttonCalculate" android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="계산하기" android:layout_marginTop="24dp" android:backgroundTint="#365FD6" android:textColor="#FFFFFF" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="계산 결과" android:layout_marginTop="28dp" android:textColor="#5D6980" />
+        <TextView android:id="@+id/textResult" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="숫자를 입력하고 계산하세요." android:textSize="22sp" android:textColor="#18233B"
+            android:layout_marginTop="8dp" android:accessibilityLiveRegion="polite" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="0으로 나누면 수업 예제의 규칙에 따라 0을 반환합니다."
+            android:textSize="12sp" android:textColor="#5D6980" android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>
