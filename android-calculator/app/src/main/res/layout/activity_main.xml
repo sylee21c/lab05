@@ -5,7 +5,7 @@
     <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
         android:orientation="vertical" android:padding="24dp">
         <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:text="LAB 05 · TDD" android:textSize="14sp" android:textColor="#4965A0" />
+            android:text="LAB 05 (TDD)" android:textSize="14sp" android:textColor="#4965A0" />
         <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
             android:text="사칙연산 계산기" android:textSize="28sp" android:textStyle="bold"
             android:textColor="#18233B" android:layout_marginTop="8dp" android:layout_marginBottom="24dp" />
@@ -24,8 +24,5 @@
         <TextView android:id="@+id/textResult" android:layout_width="match_parent" android:layout_height="wrap_content"
             android:text="숫자를 입력하고 계산하세요." android:textSize="22sp" android:textColor="#18233B"
             android:layout_marginTop="8dp" android:accessibilityLiveRegion="polite" />
-        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:text="0으로 나누면 수업 예제의 규칙에 따라 0을 반환합니다."
-            android:textSize="12sp" android:textColor="#5D6980" android:layout_marginTop="24dp" />
     </LinearLayout>
 </ScrollView>
