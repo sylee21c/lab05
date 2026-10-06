@@ -30,3 +30,13 @@ JDK 17 이상, Android SDK 35가 필요하며 Windows에서는 영문 프로젝�
 ```
 
 테스트 10개 모두 통과했으며, 에뮬레이터에서 사칙연산과 입력 처리를 확인했습니다.
+
+## 실행 결과
+
+### Python 테스트
+
+![Python 콘솔 테스트 결과](screenshots/python-test.jpg)
+
+### Android 앱
+
+![Android 앱 실행 화면](screenshots/android-app.jpg)
